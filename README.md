@@ -4,12 +4,12 @@ Some scripts to make it easy to deploy a jar as a patch to in an odl cluster
 # Setup
 
 In your bash_profile add the following lines,
-
+`
 export ODL_PATCHER_HOME=~
 export CLUSTER_SSH_USER_NAME=sysadmin
 export MY_CLUSTER="10.194.126.97 10.194.126.98 10.194.126.99"
 source $ODL_PATCHER_HOME/patch-odl/odl_patcher.sh
-
+`
 ODL_PATCH_HOME - should be the parent directory of the directory in which you cloned
 the patcher
 
